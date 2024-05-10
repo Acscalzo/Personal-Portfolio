@@ -23,7 +23,7 @@ const Hero = () => {
                     className="primaryText">
 
 
-                        Hey There, <br/> I'm Adam.
+                        Greetings Wanderer, <br/> I'm Adam.
                     </motion.span>
 
 
@@ -49,7 +49,7 @@ const Hero = () => {
                 <motion.a
                 variants={fadeIn("right", "tween", 0.5, 1.5)}
                 className={css.email} href="mailto:scalzoadam@gmail.com">
-                    scalzoadam@gmail.com
+                    adamscalzoprofessional@gmail.com
                 </motion.a>
 
                  {/* lower elements */}
@@ -67,7 +67,7 @@ const Hero = () => {
                     <motion.div
                     variants={fadeIn("left", "tween", 0.3, 1.3)}
                     className={css.certificate}>
-                        <img src="./UpePin.png" alt="" />
+                        <img src="./upsilon.png" alt="" />
                         <span>Upsilon Pi Epsilon</span>
                         <span>Honors Society Member</span>
                     </motion.div>

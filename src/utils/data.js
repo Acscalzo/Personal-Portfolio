@@ -1,30 +1,29 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
-import { MdWorkspacesOutline } from "react-icons/md";
+import { MdOutlineCode, MdOutlinePermDataSetting, MdPermDataSetting, MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
+    name: "Front-end Development",
+    projects: 6,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
-    icon: CiMobile1,
+    name: "Back-end Engineering",
+    projects: 5,
+    icon: MdOutlineCode,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
-    icon: MdWorkspacesOutline,
+    name: "Database Querying",
+    projects: 3,
+    icon: MdOutlinePermDataSetting,
     bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "I may be young, but I am a fast learner and a passionate programmer. With strong foundational skills in algorithms, data structures, and problem-solving, I am confident in my ability to deliver high quality products to my customers.",
 ];
 
 export const workExp = [

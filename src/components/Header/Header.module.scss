@@ -3,11 +3,12 @@
 .wrapper{
     position: relative;
     z-index: 99;
-    opacity: 1;
+    opacity:1;
     transform: none;
     position: sticky;
     top: 0;
     transition: all 300ms ease;
+    background: #1d3557;
 
     .container{
         position: relative;
