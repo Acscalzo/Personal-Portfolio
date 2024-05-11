@@ -28,25 +28,25 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Fiverr, Remote",
+    tenure: "May 2024 - Present",
+    role: "Independent Contractor, Software Engineer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "I work closely with clients to deliver above and beyond what they ask for. Somewhat for the money, but mostly for the experience and the joy of creating something new.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "T3 Trading Group LLC, NYC",
+    tenure: "January 2024 - May 2024",
+    role: "Software Engineering Intern",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Worked with developers and regulatory bodies to assist in the development of a React Native mobile application called Vestly, and various other organizational tools for the team.",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Johnson & Wales University, Providence, RI",
+    tenure: "Sept 2020 - May 2024",
+    role: "Student in Computer Science",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Known for it's hands-on learning approach, JWU has provided me with fundamental skills ranging from writing simple scripts, to deploying full-scale web applications.",
   },
 ];
 
