@@ -150,3 +150,4 @@ export const getMenuStyles = (menuOpened) => {
     return { right: !menuOpened && "-100%" };
   }
 };
+

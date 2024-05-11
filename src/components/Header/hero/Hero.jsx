@@ -7,6 +7,7 @@ import { staggerContainer, fadeIn, slideIn  } from '../../../utils/motion'
 const Hero = () => {
     return (
         <section className={`paddings ${css.wrapper}`}>
+            <a className="anchor" id="hero"></a>
             <motion.div
             variants={staggerContainer}
             initial="hidden"

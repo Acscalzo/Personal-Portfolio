@@ -1,3 +1,8 @@
+For this personal portfolio site, I used ZAINKEEPSCODE's template for things such as data formatting and motion modules. Just wanted to give credit where credit is due.
+
+
+
+
 # Personal-Portfolio-2-starter-pack
   * https://youtubebinjanportfolio.pages.dev
 

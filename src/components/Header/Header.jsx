@@ -4,14 +4,22 @@ import {BiMenuAltRight, BiPhoneCall} from 'react-icons/bi'
 import {motion} from 'framer-motion'
 import { headerVariants, getMenuStyles } from '../../utils/motion'
 import useHeaderShadow from "../../hooks/useHeaderShadow";
+import useOutsideAlerter from '../../hooks/useOutsideAlerter'
+import { useRef } from 'react'
 
 
 
 const Header = () => {
 
   const [menuOpened, setMenuOpened] = useState(false)
-
   const headerShadow = useHeaderShadow()
+  const menuRef = useRef()
+
+  useOutsideAlerter({
+    menuRef,
+    setMenuOpened
+  })
+
   return (
       // Creating the wrapper and container for header
       <motion.div
@@ -26,24 +34,25 @@ const Header = () => {
         <div className ={`flexCenter innerWidth ${css.container}`}>
           
         
-        <div className={css.name}>Adam Scalzo</div>
+        <div className={css.name}><a href="#top">Adam Scalzo</a> </div>
 
 
         <ul 
+        ref={menuRef}
         style={getMenuStyles(menuOpened)}
         className={`flexCenter ${css.menu}`}> 
       
           <li>
-            <a href="">Services</a>
+            <a href="#expertise">Services</a>
           </li>
           <li>
-            <a href="">Experience</a>
+            <a href="#work">Experience</a>
           </li>
           <li>
-            <a href="">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="">Testimonials</a>
+            <a href="#blog">Blog</a>
           </li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+1(908)878-2989</p>

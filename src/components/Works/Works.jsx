@@ -12,7 +12,10 @@ const Works = () => {
     initial="hidden"
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
-    className={` paddings ${css.wrapper}`}>
+    className={` paddings ${css.wrapper}`}
+    >
+
+        <a className="anchor" id="work"></a>
 
         <div className={`flexCenter innerWidth ${css.container}`}>
             <span className="primaryText yPaddings">My Work Experience</span>
@@ -25,11 +28,11 @@ const Works = () => {
                             variants={textVariant2}
                             key={i}>
                                 <div className={css.post}>
-                                    <h1>{exp.place}</h1>
+                                    <h1 style={{color: "#dabf66"}}>{exp.place}</h1>
                                     <p>{exp.tenure}</p>
                                 </div>
                                 <div className={css.role}>
-                                    <h1>{exp.role}</h1>
+                                    <h1 style={{color: "#dabf66"}}>{exp.role}</h1>
                                     <p>{exp.detail}</p>
                                 </div>
                             </motion.div>
@@ -38,6 +41,7 @@ const Works = () => {
 
                 <motion.div variants={zoomIn(1, 1)} className={css.progressbar}>
                     <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
+                    {/* why isnt this workng */}
                     <div className={css.circle} style={{background: "#286F6C"}}></div>
                     <div className={css.circle} style={{background: "#F2704E"}}></div>
                     <div className={css.circle} style={{background: "#EEC048"}}></div>

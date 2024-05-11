@@ -13,7 +13,7 @@ const Expertise = () => {
     whileInView="show"
     viewport={{ once: false, amount: 0.25}}
     className={css.wrapper}>
-
+    <a className="anchor" id="expertise"></a>
 
         <div className={`paddings yPaddings flexCenter innerWidth ${css.container}`}
         >
@@ -48,11 +48,11 @@ const Expertise = () => {
 
                 <div className={`flexCenter ${css.stats}`}>
                     <div className={`flexCenter ${css.stat}`}>
-                        <span className="primaryText">6</span>
+                        <span style={{color: "#dabf66"}} className="primaryText">6</span>
                         <span className="secondaryText">Projects Completed</span>
                     </div>
                     <div className={`flexCenter ${css.stat}`}>
-                        <span className="primaryText">-69</span>
+                        <span style={{color: "#dabf66"}} className="primaryText">-69</span>
                         <span className="secondaryText">Happy Clients</span>
                     </div>
                 </div>
