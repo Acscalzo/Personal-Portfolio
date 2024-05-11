@@ -1,7 +1,8 @@
-@import '../../styles/constants.scss';
+@import '../../../../styles/constants.scss';
 
 .wrapper {
-    
+    background-color: $tertiary;
+
     .container {
         gap: 2rem;
 
@@ -42,6 +43,11 @@
                     flex-direction: row;
                     font-weight: wrap;
 
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $link_color;
                 }
                 display: flex;
                 flex-direction: column;

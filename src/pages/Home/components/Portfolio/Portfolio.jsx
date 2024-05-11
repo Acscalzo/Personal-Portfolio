@@ -1,7 +1,7 @@
 import React from 'react'
 import css from './Portfolio.module.scss'
 import { motion } from 'framer-motion'
-import { fadeIn, staggerChildren } from '../../utils/motion'
+import { fadeIn, staggerChildren } from '../../../../utils/motion'
 
 const Portfolio = () => {
   return (
@@ -25,24 +25,26 @@ const Portfolio = () => {
 
             {/* Images */}
             <div className={`flexCenter ${css.showCase}`}>
-               <motion.img
-                className={"inflate"}
-                variants={fadeIn("up", "tween", 0.5, 0.6)}
-                src="./placeholder.svg"
-                alt="showcase1"
-               />
-               <motion.img
-                className="inflate"
-                variants={fadeIn("up", "tween", 0.5, 0.6)}
-                src="./placeholder.svg"
-                alt="showcase2"
-               />
-               <motion.img
-                className="inflate"
-                variants={fadeIn("up", "tween", 0.5, 0.6)}
-                src="./placeholder.svg"
-                alt="showcase3"
-               />
+               <a href="/portfolio">
+                <motion.img
+                  className={"inflate"}
+                  variants={fadeIn("up", "tween", 0.5, 0.6)}
+                  src="./placeholder.svg"
+                  alt="showcase1"
+                />
+                <motion.img
+                  className="inflate"
+                  variants={fadeIn("up", "tween", 0.5, 0.6)}
+                  src="./placeholder.svg"
+                  alt="showcase2"
+                />
+                <motion.img
+                  className="inflate"
+                  variants={fadeIn("up", "tween", 0.5, 0.6)}
+                  src="./placeholder.svg"
+                  alt="showcase3"
+                />
+               </a>
             </div>
         </div>
     </motion.section>

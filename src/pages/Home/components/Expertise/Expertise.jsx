@@ -1,8 +1,9 @@
 import React from 'react'
 import css from './Expertise.module.scss'
-import { projectExperience, WhatDoIHelp } from '../../utils/data'
+import { projectExperience, WhatDoIHelp } from '../../../../utils/data'
 import { motion } from 'framer-motion'
-import { staggerContainer, fadeIn, textVariant } from '../../utils/motion'
+import { staggerContainer, fadeIn, textVariant } from '../../../../utils/motion'
+import { Link } from 'react-router-dom'
 
 
 const Expertise = () => {
@@ -20,9 +21,10 @@ const Expertise = () => {
             <div className={css.leftSide}>
                 {projectExperience.map((exp, i)=>{
                     return (
-                        <motion.div
-                        variants={fadeIn("right", "tween", (i+1)*0.2, 1)}
-                        className={css.exp} key={i}>
+                        <a href={"/expertise" + exp.section}>
+                            <motion.div
+                            variants={fadeIn("right", "tween", (i+1)*0.2, 1)}
+                            className={css.exp} key={i}>
                             <div className="flexCenter" style={{background: exp.bg}}>
                                 <exp.icon size={25} color = "white"/>
                             </div>
@@ -32,6 +34,8 @@ const Expertise = () => {
                                 <span className="secondayText">{exp.projects} Projects</span>
                             </div>
                         </motion.div>
+                        </a>
+                        
                     );
                 })}
             </div>

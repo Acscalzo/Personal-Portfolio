@@ -5,18 +5,21 @@ export const projectExperience = [
   {
     name: "Front-end Development",
     projects: 6,
+    section: "#front-end",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
     name: "Back-end Engineering",
     projects: 5,
+    section: "#backend",
     icon: MdOutlineCode,
     bg: "#EEC048",
   },
   {
     name: "Database Querying",
     projects: 3,
+    section: "#database",
     icon: MdOutlinePermDataSetting,
     bg: "#F26440",
   },

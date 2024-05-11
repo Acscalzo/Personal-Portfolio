@@ -1,8 +1,8 @@
 import React from 'react'
 import css from './Works.module.scss'
 import { motion } from 'framer-motion'
-import { staggerChildren, textVariant2, zoomIn, fadeIn } from '../../utils/motion'
-import { workExp } from '../../utils/data'
+import { staggerChildren, textVariant2, zoomIn, fadeIn } from '../../../../utils/motion'
+import { workExp } from '../../../../utils/data'
 
 
 const Works = () => {

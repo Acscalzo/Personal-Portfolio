@@ -1,0 +1,50 @@
+@import '../../../../styles/constants.scss';
+
+.wrapper {
+
+    .container{
+        align-items: flex-start;
+        gap: 2rem;
+        flex-wrap: wrap;
+        >div {
+            flex: 1;
+        }
+
+        .leftSide {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            a {
+                text-decoration: underline; 
+                color: $link_color;
+            }
+        }
+
+        .rightSide {
+            @media (max-width: $sm) {
+                text-align: center;
+            }
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            .post {
+                display: flex;
+                align-items: center;
+                border: 1px $secondary-white solid;
+                background-color: $primary;
+                border-radius: 20px;
+                padding: 1.5rem;
+                gap: 2rem;
+                transition: all 300ms ease-out;
+                box-shadow: 0px 21px 13px rgba(0, 0, 0, .3);
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+
+    }
+}

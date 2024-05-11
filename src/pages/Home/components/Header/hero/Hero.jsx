@@ -1,7 +1,7 @@
 import React from 'react'
 import css from './Hero.module.scss'
 import { motion } from 'framer-motion'
-import { staggerContainer, fadeIn, slideIn  } from '../../../utils/motion'
+import { staggerContainer, fadeIn, slideIn  } from '../../../../../utils/motion'
 
 
 const Hero = () => {
@@ -31,13 +31,14 @@ const Hero = () => {
                     <motion.span
                     variants={fadeIn("left", "tween", 0.2, 1)}
                     className="secondaryText">
-                        I am a full-stack developer. <br/>
+                        I am a software developer. <br/>
                         
                         And i love what i do.
                     </motion.span>
                 </div>
 
                 {/* person image */}
+                
                 <motion.div
                 variants={fadeIn("up", "tween", 0.3, 1)}
                 className={css.person}>

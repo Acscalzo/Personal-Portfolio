@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import css from './Header.module.scss'
 import {BiMenuAltRight, BiPhoneCall} from 'react-icons/bi'
 import {motion} from 'framer-motion'
-import { headerVariants, getMenuStyles } from '../../utils/motion'
-import useHeaderShadow from "../../hooks/useHeaderShadow";
-import useOutsideAlerter from '../../hooks/useOutsideAlerter'
+import { headerVariants, getMenuStyles } from '../../../../utils/motion'
+import useHeaderShadow from "../../../../hooks/useHeaderShadow";
+import useOutsideAlerter from '../../../../hooks/useOutsideAlerter'
 import { useRef } from 'react'
 
 
@@ -52,7 +52,7 @@ const Header = () => {
             <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#blog">Blog</a>
+            <a href="/blog">Blog</a>
           </li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+1(908)878-2989</p>

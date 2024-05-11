@@ -1,4 +1,4 @@
-@import '../../styles/constants.scss';
+@import '../../../../styles/constants.scss';
 
 .wrapper {
     background-color: $tertiary;
@@ -16,7 +16,12 @@
             flex-direction: column;
             gap: 2rem;
 
+            a {
+                text-decoration: none; 
+                color: white;
+            }
             .exp {
+                
                 display: flex;
                 align-items: center;
                 border: 1px solid $secondary-white;

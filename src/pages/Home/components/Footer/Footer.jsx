@@ -1,6 +1,6 @@
 import React from 'react'
 import css from './Footer.module.scss'
-import { footerVariants, staggerChildren } from '../../utils/motion'
+import { footerVariants, staggerChildren } from '../../../../utils/motion'
 import { motion } from 'framer-motion'
 
 const Footer = () => {
@@ -36,10 +36,10 @@ const Footer = () => {
 
                 <div className={css.menu}>
                     <li></li>
-                    <li>Services</li>
-                    <li>Works</li>
-                    <li>Notes</li>
-                    <li>Experiences</li>
+                    <li><a href="/about">My Portfolio</a></li>
+                    <li><a href="/about">My Experience</a></li>
+                    <li><a href="/about">My Blog</a></li>
+                    <li><a href="/about">About me</a></li>
                 </div>
             </div>
         </motion.div>
