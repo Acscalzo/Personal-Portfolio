@@ -1,0 +1,130 @@
+@import '../../../../../styles/constants.scss';
+
+.wrapper {
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #1d3557, #1d3557 42%, $tertiary, $tertiary 42%);
+    .container {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1;
+        @media (max-width: $sm), (max-width: $md) {
+            flex-direction: column;
+            text-align: center;
+        }
+        .leftElements{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-self: self-start;
+            margin-right: 1rem;
+
+            
+           
+            .shortBio{
+                display: flexbox;
+                >:nth-child(2), >:nth-child(3){
+                    color: $link_color;
+                }
+            }
+
+            .shortBio2{
+                @media (max-width: $sm), (max-width: $md){
+                    flex-direction: column;
+                    text-align: center;
+                    margin-top: -1rem;
+                    padding-bottom: 1rem;
+                }
+                display: flexbox;
+                margin-top: 12rem;
+                >:nth-child(2), >:nth-child(3){
+                    color: $link_color;
+                }
+            
+            }
+
+        }
+
+        .portrait {
+            @media (max-width: $sm), (max-width: $md) {
+                display: none;
+            }
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-left: -5rem;
+            >:nth-child(2){
+                color: $link_color;
+                margin-top: -3rem;
+            }
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          height: auto;
+          width: 100%;
+          
+          >:nth-child(1){
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+          }
+
+          >:nth-child(2){
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            color: $link_color;
+          }
+        }
+
+        .rightElements{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-self: self-start;
+            margin-right: 1rem;
+            
+
+            .wildcat{
+                @media (max-width: $sm), (max-width: $md){
+                    display: none;
+                }
+                
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                margin-left: -5rem;
+                >:nth-child(2){
+                    color: $link_color;
+                    margin-top: -3rem;
+                }
+            }
+
+
+            .shortBio{
+                
+                @media (max-width: $lg), (max-width: $xl){
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    margin-top: 1rem;
+                    margin-left: -108rem;
+                }
+                @media (max-width: $sm), (max-width: $md){
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    margin-left: 4rem;
+                }
+               
+                >:nth-child(2), >:nth-child(3){
+                    color: $link_color;
+                }
+            }
+
+        }
+
+    }
+}

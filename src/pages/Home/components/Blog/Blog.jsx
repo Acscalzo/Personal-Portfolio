@@ -13,7 +13,7 @@ const Blog = () => {
     whileInView="show"
     viewport={{ once: false, amount: 0.25}}
     className={css.wrapper}>
-    <a className="anchor" id="expertise"></a>
+    <a className="anchor" id="blog"></a>
 
         <div className={`paddings  flexCenter innerWidth ${css.container}`}>
             <motion.div

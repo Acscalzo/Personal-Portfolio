@@ -34,13 +34,13 @@ const Portfolio = () => {
                 />
                 <motion.img
                   className="inflate"
-                  variants={fadeIn("up", "tween", 0.5, 0.6)}
+                  variants={fadeIn("up", "tween", 0.6, 0.6)}
                   src="./placeholder.svg"
                   alt="showcase2"
                 />
                 <motion.img
                   className="inflate"
-                  variants={fadeIn("up", "tween", 0.5, 0.6)}
+                  variants={fadeIn("up", "tween", 0.7, 0.6)}
                   src="./placeholder.svg"
                   alt="showcase3"
                 />
