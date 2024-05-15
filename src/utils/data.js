@@ -31,7 +31,7 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Fiverr, Remote",
+    place: "Self Employed, Remote",
     tenure: "May 2024 - Present",
     role: "Independent Contractor, Software Engineer",
     detail:
@@ -51,6 +51,21 @@ export const workExp = [
     detail:
       "Known for it's hands-on learning approach, JWU has provided me with fundamental skills ranging from writing simple scripts, to deploying full-scale web applications.",
   },
+];
+
+export const aboutMe = [
+  {
+    title: "Who am I?",
+    content: "I am a young, passionate software engineer with a strong foundation in computer science. I am a fast learner and a hard worker, and I am always looking for new opportunities to grow and learn. As someone who has held deep passion for computers for as long as I can remember, and possessing a tendency to hyperfixate on my interests until I learn them through and through, I am thoroughly enjoying traversing the rabbit-hole that is software engineering.",
+  },
+  {
+    title: "What do I do?",
+    content: "I am a full-stack software engineer with experience in front-end, back-end, and database development. I have worked on a variety of projects, silly school projects to scalable deployable websites and applications. I may not know the answers to everything immediately, but I am very good at finding them quickly. I started with compiling languages such as Python and C, and grew to really enjoy web development using HTML, CSS, JavaScript, and PHP.",
+  },
+  {
+    title: "When I'm not coding...",
+    content:"You can likely find me in the gym, walking my dogs, practicing my piano skills, playing Magic: The Gathering or various video games with my friends, or rewatching the Lord of the Rings trilogy for the thousandth time!"
+  }
 ];
 
 export const comments = [

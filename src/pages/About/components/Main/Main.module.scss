@@ -1,0 +1,42 @@
+@import '../../../../styles/constants.scss';
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .container{
+
+        .leftSide{
+            align-self: flex-start;
+            margin-top: -2rem;
+            .aboutMe{
+                padding-top: 2rem;
+                
+                >:nth-child(1){
+                    gap: 1rem;
+                    color: $link_color;
+                }
+                
+            }
+
+        }
+
+        .rightSide{
+            padding-top: 1rem;
+            padding-left: 2rem;
+            gap: 2rem;
+            .photos{
+               display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: flex-start; 
+
+                :nth-child(2), :nth-child(3){
+                    margin-top: 9rem;
+                }
+            }
+        }
+    }
+}

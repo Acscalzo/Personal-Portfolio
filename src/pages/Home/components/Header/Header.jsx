@@ -34,7 +34,7 @@ const Header = () => {
         <div className ={`flexCenter innerWidth ${css.container}`}>
           
         
-        <div className={css.name}><a href="#top">Adam Scalzo</a> </div>
+        <div className={css.name}><a href="/">Adam Scalzo</a> </div>
 
 
         <ul 
@@ -43,16 +43,16 @@ const Header = () => {
         className={`flexCenter ${css.menu}`}> 
       
           <li>
-            <a href="#expertise">Services</a>
+            <a href="/experience">Experience</a>
           </li>
           <li>
-            <a href="#work">Experience</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="/portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#blog">Blog</a>
+            <a href="/blog">Blog</a>
           </li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+1(908)878-2989</p>
