@@ -13,7 +13,6 @@ const Hero = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25}}
-            
             className={`innerWidth ${css.container}`}>
 
                  {/* upper elements */}
@@ -22,17 +21,13 @@ const Hero = () => {
                     <motion.span
                     variants={fadeIn("right", "tween", 0.2, 1)}
                     className="primaryText">
-
-
                         Greetings Wanderer, <br/> I'm Adam.
                     </motion.span>
-
 
                     <motion.span
                     variants={fadeIn("left", "tween", 0.2, 1)}
                     className="secondaryText">
-                        I am a software developer. <br/>
-                        
+                        i am a software engineer. <br/>
                         And i love what i do.
                     </motion.span>
                 </div>

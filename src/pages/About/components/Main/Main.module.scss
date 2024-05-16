@@ -24,6 +24,9 @@
         }
 
         .rightSide{
+            @media (max-width: $sm), (max-width: $md), (max-width: $lg){
+                display: none;
+            }
             padding-top: 1rem;
             padding-left: 2rem;
             gap: 2rem;

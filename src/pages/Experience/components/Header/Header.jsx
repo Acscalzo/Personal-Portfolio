@@ -43,10 +43,10 @@ const Header = () => {
         className={`flexCenter ${css.menu}`}> 
       
           <li>
-            <a href="/experience">Experience</a>
+            <a style={{color: "#dabf66"}} href="/experience">Experience</a>
           </li>
           <li>
-            <a style={{color: "#dabf66"}} href="/about">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
             <a href="/portfolio">Portfolio</a>
